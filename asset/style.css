@@ -8,6 +8,7 @@
 
 html{
     /* height: 2000px; */
+    scroll-behavior: smooth;
 }
 .header-font{
     font-family: 'Volkhov', serif;
@@ -90,8 +91,9 @@ html{
 .header__content-left p{
     font-size: 17px;
 }
-.header__content-right{
-
+#farm-menu i{
+    font-size: 1.5rem;
+    /* color: white; */
 }
 .header__content .carousel-indicators li{
     width: 15px;
@@ -309,22 +311,69 @@ html{
 
 /* testimonial start */
 #testimonial {
-    background: url(../img/bg1.jpg);
+    background-image: url(../img/bg1.jpg);
 }
 #testimonial .carousel-control-next-icon,
 .carousel-control-prev-icon{
     display: none;
 }
 #testimonial .carousel-indicators li {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 }
-.testi__left img{
+.testi-cus img{
     border-radius: 50%;
+}
+.testi__content{
+    display: flex !important;
+    justify-content: center;
+    /* max-width: 60%; */
 }
 /* testimonial end */
 
+
+/* footer start */
+
+
+.footer__left .content ul{
+    list-style: none;
+}
+.footer__left .content li{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.footer__center-content a:hover{
+    color: #000;
+}
+.footer__center-content a:hover .footer-leaf{
+    color: #000 !important;
+}
+.footer__center-content a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.footer__center-content i{
+    position: absolute;
+    right: 50%;
+}
+.contact__item:hover{
+    color: #fb811e;
+    background: rgb(255 201 69 / 19%);
+}
+.contact__item{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgb(10 191 83 / 8%);
+    color: #009f4d;
+    text-align: center;
+    transition: .3s;
+}
+.contact__item i{
+    line-height: 2;
+}
+/* footer end */
 
 @keyframes shine{
     100%{

@@ -35,8 +35,24 @@
           <div id="farm-night" class="night_mode mr-3">
             <i class="fa fa-moon"></i>
           </div>
-          <div id="farm-menu" class="nav_menu mr-3">
-            <i class="fa fa-bars"></i>
+          <!-- <div  class=" mr-3">
+          </div> -->
+          <div id="farm-menu" class="dropdown nav_menu">
+            <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-bars"></i>
+            </button>
+            <div class="dropdown-menu mr-5" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">HOME</button>
+              <button class="dropdown-item" type="button">ABOUT US</button>
+              <button class="dropdown-item" type="button">SERVICES</button>
+              <button class="dropdown-item" type="button">BLOG POSTS</button>
+              <button class="dropdown-item" type="button">BLOG SINGLE</button>
+              <button class="dropdown-item" type="button">404 PAGE</button>
+              <button class="dropdown-item" type="button">LANDING PAGE</button>
+              <button class="dropdown-item" type="button">EMAIL TEMPLATE</button>
+              <button class="dropdown-item" type="button">SHORTCODES</button>
+              <button class="dropdown-item" type="button">CONTACT US</button>
+            </div>
           </div>
         </div>
       </div>
@@ -342,7 +358,7 @@
           </div>
           <div class="col-3 p-0">
             <div class="gallery__item">
-              <a href="./img/b1.jpg" class="fancybox" title="Sample title"><img src="./img/g2.jpg" /></a>
+              <a href="./img/g2.jpg" class="fancybox" title="Sample title"><img src="./img/g2.jpg" /></a>
               <!-- <img class="w-100 h-100"  src="./img/g2.jpg" alt=""> -->
               <div class="gallery__item-info text-center ">
                 <h5 class="text-white header-font pt-2">Fresh Carrots</h5>
@@ -409,23 +425,112 @@
       </div>
     </div>
 
-    <div id="testimonial">
-      
+    <div id="testimonial" class="py-5 my-5">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner container mx-auto px-5 py-5">
+          <div class="carousel-item testi__content px-5 py-5 active">
+            <div class="testi-left text-center px-5 text-white">
+              <div class="testi-cus">
+                <img src="./img/testi1.jpg" alt="">
+              </div>
+              <h5 class="pt-3">Lorem, ipsum.</h5>
+              <h6>Customer</h6>
+            </div>
+            <div class="testi-right px-5 pt-4 text-white ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia voluptates voluptatum suscipit dolores alias ad repudiandae tenetur non pariatur! Temporibus, iste labore blanditiis aspernatur dolore ipsa adipisci alias maiores.</p>
+            </div>
+          </div>
+          <div class="carousel-item testi__content px-5 py-5 active">
+            <div class="testi-left text-center px-5 text-white">
+              <div class="testi-cus">
+                <img src="./img/testi2.jpg" alt="">
+              </div>
+              <h5 class="pt-3">Lorem, ipsum.</h5>
+              <h6>Customer</h6>
+            </div>
+            <div class="testi-right px-5 pt-4 text-white ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia voluptates voluptatum suscipit dolores alias ad repudiandae tenetur non pariatur! Temporibus, iste labore blanditiis aspernatur dolore ipsa adipisci alias maiores.</p>
+            </div>
+          </div>
+          <div class="carousel-item testi__content px-5 py-5 active">
+            <div class="testi-left text-center px-5 text-white">
+              <div class="testi-cus">
+                <img src="./img/testi3.jpg" alt="">
+              </div>
+              <h5 class="pt-3">Lorem, ipsum.</h5>
+              <h6>Customer</h6>
+            </div>
+            <div class="testi-right px-5 pt-4 text-white ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia voluptates voluptatum suscipit dolores alias ad repudiandae tenetur non pariatur! Temporibus, iste labore blanditiis aspernatur dolore ipsa adipisci alias maiores.</p>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
 
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <h3>FIND US</h3>
-            <div class="content">
+      <div class="container footer__content">
+        <div class="row footer__wrap">
+          <div class="col-4 footer__left">
+            <h5 class=" pt-2 header-font">FIND US</h5>
+            <div class="content text-secondary pt-1">
               <ul>
-                <li>Add</li>
-                <li>Phone</li>
-                <li>Email</li>
-                <li>Fax</li>
+                <li>Address: 10001 Alleghany sr, 5th Avenue 235 Terry , London</li>
+                <li>Phone: <a href="tel:+4733378901">+12 234 56790</a></li>
+                <li>Email: <a href="mailto:lucduong96@gmail.com">info@example.com</a> </li>
+                <li>Fax: <a href="tel:+4733378901">+11 367 21890</a></li>
               </ul>
             </div>
+          </div>
+          <div class="col-4 footer__center text-secondary">
+            <div  class="footer__center-content text-center">
+              <i id="farm-leaf" class="footer-leaf fa fa-leaf header-color"></i>
+              <a id="farm-logo" class="header-font header-color" href="#">Farmstead</a>
+            </div>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque libero autem blanditiis ducimus voluptatum harum, a doloremque, ad sint at nihil nulla perspiciatis!</p>
+            <p>@ 2021 Farmstead. All rights reserved. Design by <a href="#">W3Layouts</a></p>
+          </div>
+          <div class="col-4 footer__right">
+            <h5 class="header-font pt-2">NEWSLETTER</h5>
+            <p class="pt-2 text-secondary">Subcribe to out mailing list and get updates to your email inbox.</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary bg-success text-white" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+              </div>
+            </div>
+            <div class="footer__contact d-flex">
+              <div class="contact__item mr-2 mt-2 ">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="contact__item mr-2 mt-2">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="contact__item mr-2 mt-2">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="contact__item mr-2 mt-2">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="contact__item mr-2 mt-2">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
