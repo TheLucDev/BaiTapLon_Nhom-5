@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* start header */
+header {
+  width: 100%;
+  height: 100px;
+  border-bottom: 0.5px solid black;
+  border-width: thin;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+  position: fixed;
+  background: rgb(129, 127, 127);
+}
+.header__layout {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.header__layout .logo .head__logo {
+  height: 45px;
+}
+.head__logo h1 i {
+  color: #00a63f;
+  font-size: 25px;
+}
+.logo .head__logo span {
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+  margin-left: -6px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.9;
+  color: white;
+  padding-left: 45px;
+}
+.navbar {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end header */
+/* start carousel */
+
+/* end carousel */
+/* start news */
+.news {
+  text-align: center;
+}
+.news__info p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #7e7d7d;
+}
+.news__info .text {
+  text-transform: uppercase;
+}
+.news__info h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+}
+.layout__content,
+.news__time {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: none;
+}
+.news__block1,
+.news__block2,
+.news__block3 {
+  width: 33.33333%;
+  margin: 0 5px;
+}
+.news__layout img {
+  object-fit: cover;
+}
+/* end news */
+/* start email */
+.email {
+  background-image: url(./image-corpovision/map.png);
+  background-color: #151421;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+  padding: 3rem 0;
+}
+.email__layout {
+  max-width: 700px;
+}
+.email__info input {
+  width: 300px;
+  background-color: transparent;
+  padding: 14px 20px;
+  font-size: 16px;
+  color: #999;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.email__info button {
+  width: 200px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffff;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.email h2 {
+  color: #ffff;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.email__layout p {
+  color: #eee;
+  margin-bottom: 2.5rem;
+  font-size: 17px;
+  line-height: 27px;
+}
+.email__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.email__info i {
+  text-align: center;
+  padding: 20px 15px;
+  color: #999;
+  border-radius: 5px;
+  border: 1px solid black;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* end email */
+/* start footer */
+.footer {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 400px;
+  background-color: #151421;
+  color: #97a1a9;
+}
+.footer a {
+  color: #97a1a9;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+.footer a:hover {
+  color: #ffff;
+}
+.footer .footer__layout {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  line-height: 28px;
+  padding: 3rem 0;
+}
+
+.footer .footer__layout h2 {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffff;
+  margin-bottom: 25px;
+}
+.footer .footer__layout p {
+  font-size: 18px;
+}
+.footer__layout .corpvision,
+.footer__layout .contactinfo {
+  height: 100%;
+  width: 30%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer__layout .meta,
+.footer__layout .categories {
+  height: 100%;
+  width: 20%;
+}
+.footer__layout .meta,
+.footer__layout .categories a {
+  font-size: 18px;
+  line-height: 38px;
+}
+.corpvision .title {
+  margin-bottom: 25px;
+}
+.corpvision .footer__corp__text {
+  line-height: 28px;
+}
+/* end footer */
+/* start copyright */
+.copyright {
+  display: block;
+  background-color: #151421;
+}
+.copy__layout {
+  background: transparent;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+.copy__layout p {
+  color: #404040;
+  letter-spacing: 0.5px;
+  opacity: 1;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}
+.copy__layout a {
+  color: #009f4d;
+  transition-duration: 0.6s;
+}
+.copy__layout a:hover {
+  color: white;
+  text-decoration: none;
+}
+/* end copyright */
