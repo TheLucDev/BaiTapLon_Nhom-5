@@ -1,36 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Farmstead</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- fancybox -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-    <link rel="stylesheet" href="./fancyapps-fancybox-18d1712/source/jquery.fancybox.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="./fancyapps-fancybox-18d1712/source/jquery.fancybox.pack.js"></script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="./fancyapps-fancybox-18d1712/source/jquery.fancybox.css"
+      type="text/css"
+      media="screen"
+    />
+    <script
+      type="text/javascript"
+      src="./fancyapps-fancybox-18d1712/source/jquery.fancybox.pack.js"
+    ></script>
     <!-- css -->
-    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/style.css" />
   </head>
   <body>
     <header id="page-header" class="main_header fixed-top">
-      <div class="header_contain pt-4 container d-flex justify-content-between">
-        <div  class="header_left">
+      <div class="header_contain pt-4 container mx-auto row">
+        <div class="header_left col-5">
           <i id="farm-leaf" class="fa fa-leaf header-color"></i>
-          <a id="farm-logo" class="header-font header-color" href="#">Farmstead</a>
+          <a id="farm-logo" class="header-font header-color" href="#"
+            >Farmstead</a
+          >
         </div>
-        <div class="header_right d-flex align-items-center">
+        <div
+          class="header_right col-7 d-flex align-items-center justify-content-end"
+        >
           <div class="search_item mr-3">
-            <i class="fa fa-search" ></i>
+            <i class="fa fa-search"></i>
           </div>
           <div id="farm-night" class="night_mode mr-3">
             <i class="fa fa-moon"></i>
@@ -38,7 +70,14 @@
           <!-- <div  class=" mr-3">
           </div> -->
           <div id="farm-menu" class="dropdown nav_menu">
-            <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button
+              class="btn"
+              type="button"
+              id="dropdownMenu2"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
               <i class="fa fa-bars"></i>
             </button>
             <div class="dropdown-menu mr-5" aria-labelledby="dropdownMenu2">
@@ -49,7 +88,9 @@
               <button class="dropdown-item" type="button">BLOG SINGLE</button>
               <button class="dropdown-item" type="button">404 PAGE</button>
               <button class="dropdown-item" type="button">LANDING PAGE</button>
-              <button class="dropdown-item" type="button">EMAIL TEMPLATE</button>
+              <button class="dropdown-item" type="button">
+                EMAIL TEMPLATE
+              </button>
               <button class="dropdown-item" type="button">SHORTCODES</button>
               <button class="dropdown-item" type="button">CONTACT US</button>
             </div>
@@ -58,53 +99,100 @@
       </div>
     </header>
     <div class="container-fluid">
-      <div class="row header__content d-flex align-items-center">
+      <div class="row header__content align-items-center">
         <div class="col-md-5 header__content-left">
-          <h1 class="font-weight-bold header-font">Welcome to Farmstead where Natural Food is born!
-            <h2 class="header__overlay">Farm</h2>
+          <div class="left__wrap">
+            <h1 class="font-weight-bold header-font">
+              Welcome to Farmstead where Natural Food is born!
             </h1>
-            <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Consectetur ut voluptatum iusto modi voluptates?</p>
-            <button class="btn mt-4 farm-button text-white">LEARN MORE</button>
+            <h2 class="header__overlay">Farm</h2>
+            <p class="text-secondary">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+              Consectetur ut voluptatum iusto modi voluptates?
+            </p>
+            <button class="header_button btn mt-4 farm-button text-white">
+              LEARN MORE
+            </button>
+          </div>
         </div>
         <div class="col-md-7 p-0 header__content-right">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100 h-100" src="./img/b1.jpg" alt="First slide">
+                <img
+                  class="d-block w-100 h-100"
+                  src="./img/b1.jpg"
+                  alt="First slide"
+                />
                 <div class="image__label">
                   <h3>01/03</h3>
-                  <p>Agriculture
-                  </p>
+                  <p>Agriculture</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="./img/b8.jpg" alt="Second slide">
+                <img
+                  class="d-block w-100"
+                  src="./img/b8.jpg"
+                  alt="Second slide"
+                />
                 <div class="image__label">
-                  <h3 >02/03</h3>
-                  <p>Farm Field
-                  </p>
+                  <h3>02/03</h3>
+                  <p>Farm Field</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="./img/b4.jpg" alt="Third slide">
+                <img
+                  class="d-block w-100"
+                  src="./img/b4.jpg"
+                  alt="Third slide"
+                />
                 <div class="image__label">
-                  <h3 >03/03</h3>
-                  <p>Organic Farm
-                  </p>
+                  <h3>03/03</h3>
+                  <p>Organic Farm</p>
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
               <span class="sr-only">Next</span>
             </a>
           </div>
@@ -114,57 +202,66 @@
     <div id="features" class="container my-5 py-5">
       <div class="row features__content">
         <div class="col-lg-6 features__left my-auto">
-          <h5 class="header-font header-color">
-            Grow Naturally
-          </h5>
-          <h3 class="header-font font-weight-bold">
-            Leaders in the field
-          </h3>
-          <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugiat temporibus, vel doloribus ratione dolores minus. Quaerat enim odit a architecto rem, nostrum repellendus laborum impedit est debitis reiciendis eaque.</p>
+          <h5 class="header-font header-color">Grow Naturally</h5>
+          <h3 class="header-font font-weight-bold">Leaders in the field</h3>
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugiat
+            temporibus, vel doloribus ratione dolores minus. Quaerat enim odit a
+            architecto rem, nostrum repellendus laborum impedit est debitis
+            reiciendis eaque.
+          </p>
           <button class="farm-button mt-4">DISCOVER MORE</button>
         </div>
 
         <div class="col-lg-6 features__right">
-          <div class="row pb-4">
-            <div class="features__right-item col">
-              <div class="item__content  px-5 py-4">
+          <div class="row">
+            <div class="features__right-item col-sm-12 col-md-6 py-4">
+              <div class="item__content py-4">
                 <div class="item__img">
-                  <img src="./img/img4.png" alt="">
+                  <img src="./img/img4.png" alt="" />
                 </div>
                 <div class="item__link mt-4">
-                  <a class="font-weight-bold text-dark " href="#">Natural Products</a>
+                  <a class="font-weight-bold text-dark" href="#"
+                    >Natural Products</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="features__right-item col">
-              <div class="item__content  px-5 py-4">
+            <div class="features__right-item col-sm-12 col-md-6 py-4">
+              <div class="item__content py-4">
                 <div class="item__img">
-                  <img src="./img/img4.png" alt="">
+                  <img src="./img/img4.png" alt="" />
                 </div>
                 <div class="item__link mt-4">
-                  <a class="font-weight-bold text-dark " href="#">Natural Products</a>
+                  <a class="font-weight-bold text-dark" href="#"
+                    >Natural Products</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="row ">
-            <div class="features__right-item col">
-              <div class="item__content  px-5 py-4">
+          <div class="row">
+            <div class="features__right-item col-sm-12 col-md-6 py-4">
+              <div class="item__content py-4">
                 <div class="item__img">
-                  <img src="./img/img4.png" alt="">
+                  <img src="./img/img4.png" alt="" />
                 </div>
                 <div class="item__link mt-4">
-                  <a class="font-weight-bold text-dark " href="#">Natural Products</a>
+                  <a class="font-weight-bold text-dark" href="#"
+                    >Natural Products</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="features__right-item col">
-              <div class="item__content  px-5 py-4">
+            <div class="features__right-item col-sm-12 col-md-6 py-4">
+              <div class="item__content py-4">
                 <div class="item__img">
-                  <img src="./img/img4.png" alt="">
+                  <img src="./img/img4.png" alt="" />
                 </div>
                 <div class="item__link mt-4">
-                  <a class="font-weight-bold text-dark " href="#">Natural Products</a>
+                  <a class="font-weight-bold text-dark" href="#"
+                    >Natural Products</a
+                  >
                 </div>
               </div>
             </div>
@@ -182,55 +279,73 @@
           <div class="row text-white">
             <div class="header__left col-6">
               <h5 class="header-font">What we do</h5>
-              <h3 class="header-font">Why Choose Our Fresh <br> Organic Foods
+              <h3 class="header-font">
+                Why Choose Our Fresh <br />
+                Organic Foods
               </h3>
             </div>
             <div class="header__right col-6">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam repellendus debitis, dolorem enim facere molestias iste quidem libero minus modi atque accusamus esse! Eveniet.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                quibusdam repellendus debitis, dolorem enim facere molestias
+                iste quidem libero minus modi atque accusamus esse! Eveniet.
+              </p>
             </div>
           </div>
         </div>
 
         <div class="services__content pb-5 row">
-          <div class="content__item col-4">
+          <div class="content__item col-12 col-lg-4">
             <div class="item__box">
               <div class="item__box-img">
-                <img class="w-100" src="./img/service1.jpg" alt="">
+                <img class="w-100" src="./img/service1.jpg" alt="" />
               </div>
               <div class="item__content py-4 px-4 bg-white">
                 <div class="item__label">
                   <span class="font-weight-bold text-success">Natural</span>
                 </div>
                 <h4 class="pt-3 mt-2">Agriculture Products</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae laborum est omnis earum facilis aperiam quae voluptatum. Amet doloremque.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  recusandae laborum est omnis earum facilis aperiam quae
+                  voluptatum. Amet doloremque.
+                </p>
               </div>
             </div>
           </div>
-          <div class="content__item col-4">
+          <div class="content__item col-12 col-lg-4">
             <div class="item__box">
               <div class="item__box-img">
-                <img class="w-100" src="./img/service1.jpg" alt="">
+                <img class="w-100" src="./img/service1.jpg" alt="" />
               </div>
               <div class="item__content py-4 px-4 bg-white">
                 <div class="item__label">
                   <span class="font-weight-bold text-success">Natural</span>
                 </div>
                 <h4 class="pt-3 mt-2">Agriculture Products</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae laborum est omnis earum facilis aperiam quae voluptatum. Amet doloremque.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  recusandae laborum est omnis earum facilis aperiam quae
+                  voluptatum. Amet doloremque.
+                </p>
               </div>
             </div>
           </div>
-          <div class="content__item col-4">
+          <div class="content__item col-12 col-lg-4">
             <div class="item__box">
               <div class="item__box-img">
-                <img class="w-100" src="./img/service1.jpg" alt="">
+                <img class="w-100" src="./img/service1.jpg" alt="" />
               </div>
               <div class="item__content py-4 px-4 bg-white">
                 <div class="item__label">
                   <span class="font-weight-bold text-success">Natural</span>
                 </div>
                 <h4 class="pt-3 mt-2">Agriculture Products</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae laborum est omnis earum facilis aperiam quae voluptatum. Amet doloremque.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  recusandae laborum est omnis earum facilis aperiam quae
+                  voluptatum. Amet doloremque.
+                </p>
               </div>
             </div>
           </div>
@@ -241,182 +356,227 @@
     <div id="about" class="">
       <div class="container about__content py-5 my-5">
         <div class="row about__content-wrap my-auto">
-          <div class="col-6 about__left my-auto">
+          <div class="col-lg-6 col-12 about__left my-auto">
             <div class="left__top">
               <h4 class="header-font header-color">Why choose us</h4>
-              <h2 class="header-font font-weight-bold">Quality food is the most <br> important thing in our life
+              <h2 class="header-font font-weight-bold">
+                Quality food is the most <br />
+                important thing in our life
               </h2>
-              <p class="text-secondary pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, maxime. Velit, eveniet inventore distinctio amet quia ea accusantium autem ullam! Eaque optio, amet tenetur eligendi magni quos dolor corporis temporibus?</p>
+              <p class="text-secondary pt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+                maxime. Velit, eveniet inventore distinctio amet quia ea
+                accusantium autem ullam! Eaque optio, amet tenetur eligendi
+                magni quos dolor corporis temporibus?
+              </p>
             </div>
-            <div class="left__bottom pt-4 d-flex">
-              <div class="bottom__item d-flex">
+            <div class="left__bottom pt-4 row">
+              <div class="bottom__item d-flex col-12 col-lg-6">
                 <div class="bottom-icon pr-1">
                   <i class="fa fa-users header-color"></i>
                 </div>
                 <div class="bottom__content">
-                  <h4 class="font-weight-bold header-font pt-1">Qualified Staff</h4>
+                  <h4 class="font-weight-bold header-font pt-1">
+                    Qualified Staff
+                  </h4>
                   <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
               </div>
-              <div class="bottom__item d-flex">
+              <div class="bottom__item d-flex col-12 col-lg-6">
                 <div class="bottom-icon pr-1">
                   <i class="fa fa-life-ring header-color"></i>
                 </div>
                 <div class="bottom__content">
-                  <h4 class="font-weight-bold header-font pt-1">Qualified Staff</h4>
+                  <h4 class="font-weight-bold header-font pt-1">
+                    Qualified Staff
+                  </h4>
                   <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-5 about__right pl-5 ml-5">
-            <img class="w-100 h-100 ml-5" src="./img/image.jpg" alt="">
+          <div class="col-lg-6 col-12 about__right pl-5">
+            <img class="w-100 h-100 pl-5" src="./img/image.jpg" alt="" />
             <div class="about__exp text-center text-white">
-                <div class="about__exp-box px-5 py-4">
-                  <h2 class="header-font">36+</h2>
-                  <p class="font-weight-bold">YEARS OF EXPERIENCE</p>
-                </div>
+              <div class="about__exp-box px-5 py-4">
+                <h2 class="header-font">36+</h2>
+                <p class="font-weight-bold">YEARS OF EXPERIENCE</p>
               </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="about__item row">
-          <div class="about__item-link pt-2 col-4">
-            <div class="item__link-box d-flex py-3 px-4">
-              <img class="pr-3 pt-1" src="./img/img8.png" alt="">
+          <div class="about__item-link col-lg-4 col-12">
+            <div class="item__link-box py-5 px-5 d-flex py-3 px-4">
+              <img class="pr-3 pt-1" src="./img/img8.png" alt="" />
               <div class="link-box__right">
                 <h4 class="header-font">Natural</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, omnis.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                  omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="about__item-link pt-2 col-4">
-            <div class="item__link-box d-flex py-3 px-4">
-              <img class="pr-3 pt-1" src="./img/img8.png" alt="">
+          <div class="about__item-link col-lg-4 col-12">
+            <div class="item__link-box py-5 px-5 d-flex py-3 px-4">
+              <img class="pr-3 pt-1" src="./img/img8.png" alt="" />
               <div class="link-box__right">
                 <h4 class="header-font">Natural</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, omnis.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                  omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="about__item-link pt-2 col-4">
-            <div class="item__link-box d-flex py-3 px-4">
-              <img class="pr-3 pt-1" src="./img/img8.png" alt="">
+          <div class="about__item-link col-lg-4 col-12">
+            <div class="item__link-box py-5 px-5 d-flex py-3 px-4">
+              <img class="pr-3 pt-1" src="./img/img8.png" alt="" />
               <div class="link-box__right">
                 <h4 class="header-font">Natural</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, omnis.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                  omnis.
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div class="about__item row mt-4">
-          <div class="about__item-link pt-2 col-4">
-            <div class="item__link-box d-flex py-3 px-4">
-              <img class="pr-3 pt-1" src="./img/img8.png" alt="">
+          <div class="about__item-link col-lg-4 col-12">
+            <div class="item__link-box py-5 px-5 d-flex py-3 px-4">
+              <img class="pr-3 pt-1" src="./img/img8.png" alt="" />
               <div class="link-box__right">
                 <h4 class="header-font">Natural</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, omnis.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                  omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="about__item-link pt-2 col-4">
-            <div class="item__link-box d-flex py-3 px-4">
-              <img class="pr-3 pt-1" src="./img/img8.png" alt="">
+          <div class="about__item-link col-lg-4 col-12">
+            <div class="item__link-box py-5 px-5 d-flex py-3 px-4">
+              <img class="pr-3 pt-1" src="./img/img8.png" alt="" />
               <div class="link-box__right">
                 <h4 class="header-font">Natural</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, omnis.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                  omnis.
+                </p>
               </div>
             </div>
           </div>
-          <div class="about__item-link pt-2 col-4">
-            <div class="item__link-box d-flex py-3 px-4">
-              <img class="pr-3 pt-1" src="./img/img8.png" alt="">
+          <div class="about__item-link col-lg-4 col-12">
+            <div class="item__link-box py-5 px-5 d-flex py-3 px-4">
+              <img class="pr-3 pt-1" src="./img/img8.png" alt="" />
               <div class="link-box__right">
                 <h4 class="header-font">Natural</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, omnis.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                  omnis.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
 
     <div id="gallery">
       <div class="container py-5 my-5">
         <div class="row">
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__header">
               <h5 class="header-font header-color">Gallery</h5>
               <h2 class="header-font font-weight-bold">Our Products</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, magni.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                magni.
+              </p>
 
               <button class="farm-button mt-4">DISCOVER MORE</button>
             </div>
           </div>
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__item">
-              <a href="./img/g2.jpg" class="fancybox" title="Sample title"><img src="./img/g2.jpg" /></a>
+              <a href="./img/g2.jpg" class="fancybox" title="Sample title"
+                ><img src="./img/g2.jpg"
+              /></a>
               <!-- <img class="w-100 h-100"  src="./img/g2.jpg" alt=""> -->
-              <div class="gallery__item-info text-center ">
+              <div class="gallery__item-info text-center">
                 <h5 class="text-white header-font pt-2">Fresh Carrots</h5>
               </div>
             </div>
           </div>
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__item">
-              <a href="./img/g3.jpg" class="fancybox" title="Sample title"><img src="./img/g3.jpg" /></a>
+              <a href="./img/g3.jpg" class="fancybox" title="Sample title"
+                ><img src="./img/g3.jpg"
+              /></a>
               <!-- <img class="w-100 h-100" src="./img/g2.jpg" alt=""> -->
-              <div class="gallery__item-info text-center ">
+              <div class="gallery__item-info text-center">
                 <h5 class="text-white header-font pt-2">Strawberry</h5>
               </div>
             </div>
           </div>
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__item">
-              <a href="./img/g6.jpg" class="fancybox" title="Sample title"><img src="./img/g6.jpg" /></a>
+              <a href="./img/g6.jpg" class="fancybox" title="Sample title"
+                ><img src="./img/g6.jpg"
+              /></a>
               <!-- <img class="w-100 h-100" src="./img/g2.jpg" alt=""> -->
-              <div class="gallery__item-info text-center ">
+              <div class="gallery__item-info text-center">
                 <h5 class="text-white header-font pt-2">Our Farm</h5>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__item">
-              <a href="./img/g5.jpg" class="fancybox" title="Sample title"><img src="./img/g5.jpg" /></a>
+              <a href="./img/g5.jpg" class="fancybox" title="Sample title"
+                ><img src="./img/g5.jpg"
+              /></a>
               <!-- <img class="w-100 h-100" src="./img/g2.jpg" alt=""> -->
-              <div class="gallery__item-info text-center ">
+              <div class="gallery__item-info text-center">
                 <h5 class="text-white header-font pt-2">Fresh Apples</h5>
               </div>
             </div>
           </div>
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__item">
-              <a href="./img/g1.jpg" class="fancybox" title="Sample title"><img src="./img/g1.jpg" /></a>
+              <a href="./img/g1.jpg" class="fancybox" title="Sample title"
+                ><img src="./img/g1.jpg"
+              /></a>
               <!-- <img class="w-100 h-100" src="./img/g2.jpg" alt=""> -->
-              <div class="gallery__item-info text-center ">
+              <div class="gallery__item-info text-center">
                 <h5 class="text-white header-font pt-2">Awesome Fields</h5>
               </div>
             </div>
           </div>
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__item">
-              <a href="./img/g7.jpg" class="fancybox" title="Sample title"><img src="./img/g7.jpg" /></a>
+              <a href="./img/g7.jpg" class="fancybox" title="Sample title"
+                ><img src="./img/g7.jpg"
+              /></a>
               <!-- <img class="w-100 h-100" src="./img/g2.jpg" alt=""> -->
-              <div class="gallery__item-info text-center ">
+              <div class="gallery__item-info text-center">
                 <h5 class="text-white header-font pt-2">Fresh Grapes</h5>
               </div>
             </div>
           </div>
-          <div class="col-3 p-0">
+          <div class="col-6 col-lg-3 p-0">
             <div class="gallery__item">
-              <a href="./img/g8.jpg" class="fancybox" title="Sample title"><img src="./img/g8.jpg" /></a>
+              <a href="./img/g8.jpg" class="fancybox" title="Sample title"
+                ><img src="./img/g8.jpg"
+              /></a>
               <!-- <img class="w-100 h-100" src="./img/g2.jpg" alt=""> -->
-              <div class="gallery__item-info text-center ">
+              <div class="gallery__item-info text-center">
                 <h5 class="text-white header-font pt-2">Hot Pepper</h5>
               </div>
             </div>
@@ -426,9 +586,17 @@
     </div>
 
     <div id="testimonial" class="py-5 my-5">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
@@ -436,46 +604,70 @@
           <div class="carousel-item testi__content px-5 py-5 active">
             <div class="testi-left text-center px-5 text-white">
               <div class="testi-cus">
-                <img src="./img/testi1.jpg" alt="">
+                <img src="./img/testi1.jpg" alt="" />
               </div>
               <h5 class="pt-3">Lorem, ipsum.</h5>
               <h6>Customer</h6>
             </div>
-            <div class="testi-right px-5 pt-4 text-white ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia voluptates voluptatum suscipit dolores alias ad repudiandae tenetur non pariatur! Temporibus, iste labore blanditiis aspernatur dolore ipsa adipisci alias maiores.</p>
+            <div class="testi-right px-5 pt-4 text-white">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit mollitia voluptates voluptatum suscipit dolores
+                alias ad repudiandae tenetur non pariatur! Temporibus, iste
+                labore blanditiis aspernatur dolore ipsa adipisci alias maiores.
+              </p>
             </div>
           </div>
           <div class="carousel-item testi__content px-5 py-5 active">
             <div class="testi-left text-center px-5 text-white">
               <div class="testi-cus">
-                <img src="./img/testi2.jpg" alt="">
+                <img src="./img/testi2.jpg" alt="" />
               </div>
               <h5 class="pt-3">Lorem, ipsum.</h5>
               <h6>Customer</h6>
             </div>
-            <div class="testi-right px-5 pt-4 text-white ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia voluptates voluptatum suscipit dolores alias ad repudiandae tenetur non pariatur! Temporibus, iste labore blanditiis aspernatur dolore ipsa adipisci alias maiores.</p>
+            <div class="testi-right px-5 pt-4 text-white">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit mollitia voluptates voluptatum suscipit dolores
+                alias ad repudiandae tenetur non pariatur! Temporibus, iste
+                labore blanditiis aspernatur dolore ipsa adipisci alias maiores.
+              </p>
             </div>
           </div>
           <div class="carousel-item testi__content px-5 py-5 active">
             <div class="testi-left text-center px-5 text-white">
               <div class="testi-cus">
-                <img src="./img/testi3.jpg" alt="">
+                <img src="./img/testi3.jpg" alt="" />
               </div>
               <h5 class="pt-3">Lorem, ipsum.</h5>
               <h6>Customer</h6>
             </div>
-            <div class="testi-right px-5 pt-4 text-white ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia voluptates voluptatum suscipit dolores alias ad repudiandae tenetur non pariatur! Temporibus, iste labore blanditiis aspernatur dolore ipsa adipisci alias maiores.</p>
+            <div class="testi-right px-5 pt-4 text-white">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit mollitia voluptates voluptatum suscipit dolores
+                alias ad repudiandae tenetur non pariatur! Temporibus, iste
+                labore blanditiis aspernatur dolore ipsa adipisci alias maiores.
+              </p>
             </div>
           </div>
-
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -485,36 +677,64 @@
     <footer>
       <div class="container footer__content">
         <div class="row footer__wrap">
-          <div class="col-4 footer__left">
-            <h5 class=" pt-2 header-font">FIND US</h5>
+          <div class="col-lg-4 col-12 py-4 footer__left">
+            <h5 class="pt-2 header-font">FIND US</h5>
             <div class="content text-secondary pt-1">
               <ul>
-                <li>Address: 10001 Alleghany sr, 5th Avenue 235 Terry , London</li>
+                <li>
+                  Address: 10001 Alleghany sr, 5th Avenue 235 Terry , London
+                </li>
                 <li>Phone: <a href="tel:+4733378901">+12 234 56790</a></li>
-                <li>Email: <a href="mailto:lucduong96@gmail.com">info@example.com</a> </li>
+                <li>
+                  Email:
+                  <a href="mailto:lucduong96@gmail.com">info@example.com</a>
+                </li>
                 <li>Fax: <a href="tel:+4733378901">+11 367 21890</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-4 footer__center text-secondary">
-            <div  class="footer__center-content text-center">
+          <div class="col-lg-4 col-12 py-4 footer__center text-secondary">
+            <div class="footer__center-content text-center">
               <i id="farm-leaf" class="footer-leaf fa fa-leaf header-color"></i>
-              <a id="farm-logo" class="header-font header-color" href="#">Farmstead</a>
+              <a id="farm-logo" class="header-font header-color" href="#"
+                >Farmstead</a
+              >
             </div>
-            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque libero autem blanditiis ducimus voluptatum harum, a doloremque, ad sint at nihil nulla perspiciatis!</p>
-            <p>@ 2021 Farmstead. All rights reserved. Design by <a href="#">W3Layouts</a></p>
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+              libero autem blanditiis ducimus voluptatum harum, a doloremque, ad
+              sint at nihil nulla perspiciatis!
+            </p>
+            <p>
+              @ 2021 Farmstead. All rights reserved. Design by
+              <a href="#">W3Layouts</a>
+            </p>
           </div>
-          <div class="col-4 footer__right">
+          <div class="col-lg-4 col-12 py-4 footer__right">
             <h5 class="header-font pt-2">NEWSLETTER</h5>
-            <p class="pt-2 text-secondary">Subcribe to out mailing list and get updates to your email inbox.</p>
+            <p class="pt-2 text-secondary">
+              Subcribe to out mailing list and get updates to your email inbox.
+            </p>
             <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email Address"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
               <div class="input-group-append">
-                <button class="btn btn-outline-secondary bg-success text-white" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+                <button
+                  class="btn btn-outline-secondary bg-success text-white"
+                  type="button"
+                  id="button-addon2"
+                >
+                  <i class="fa fa-paper-plane"></i>
+                </button>
               </div>
             </div>
             <div class="footer__contact d-flex">
-              <div class="contact__item mr-2 mt-2 ">
+              <div class="contact__item mr-2 mt-2">
                 <i class="fab fa-facebook-f"></i>
               </div>
               <div class="contact__item mr-2 mt-2">
@@ -530,7 +750,6 @@
                 <i class="fab fa-facebook-f"></i>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -538,18 +757,32 @@
 
     <!-- Optional JavaScript -->
     <script>
-        $(document).ready(function() {
-            $('.fancybox').fancybox();
-        });
+      $(document).ready(function () {
+        $(".fancybox").fancybox();
+      });
     </script>
     <script>
-      $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox();
+      $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']")
+        .attr("rel", "gallery")
+        .fancybox();
     </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/scrollheader.js"></script>
     <script src="./js/night.js"></script>
     <!-- <script src="./js/testimonial.js"></script> -->
